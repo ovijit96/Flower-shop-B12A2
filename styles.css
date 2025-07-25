@@ -386,3 +386,123 @@ img {
   height: 24px;
 }
 
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  /* Header */
+  .header .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .nav ul li {
+    width: 100%;
+  }
+
+  .nav a {
+    display: block;
+    padding: 10px 0;
+    font-size: 16px;
+  }
+
+  /* Hero Section */
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .hero-text h2 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  /* Plants Lover Section */
+  .plants-container {
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+  }
+
+  .plants-image img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  /* Latest Deals */
+  .deals-wrapper {
+    flex-direction: column;
+  }
+
+  .deals-left,
+  .deals-right {
+    flex: none;
+    width: 100%;
+  }
+
+  .deals-right .deal-card.large {
+    margin-top: 20px;
+  }
+
+  .deal-text {
+    bottom: 15px !important;
+    left: 15px !important;
+    font-size: 16px;
+  }
+
+  .deal-text-2 {
+    bottom: 15px !important;
+    left: 15px !important;
+    font-size: 24px;
+  }
+
+  /* Join Section */
+  .join-section {
+    padding: 60px 10px;
+  }
+
+  .join-section h2 {
+    font-size: 24px;
+  }
+
+  .join-form {
+    flex-direction: column;
+  }
+
+  .join-form input[type="email"] {
+    margin: 0 0 15px 0;
+    width: 100%;
+    min-width: auto;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-links {
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  .footer-column ul li a {
+    font-size: 16px;
+  }
+}
