@@ -1,4 +1,3 @@
-/* ========== Reset & Base ========== */
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: #333;
+  color: #333333;
   background-color: #f5f5f5;
   line-height: 1.6;
 }
@@ -23,9 +22,9 @@ img {
   margin: 0 auto;
 }
 
-/* ========== Header ========== */
+/*  Header  */
 .header {
-  background-color: #fff;
+  background-color: #fdf9f9;
   padding: 20px 0;
 }
 
@@ -43,7 +42,7 @@ img {
 
 .nav a {
   text-decoration: none;
-  color: #333;
+  color: #333333;
   font-weight: 500;
 }
 
@@ -57,7 +56,7 @@ img {
   align-items: center;
 }
 
-/* ========== Hero ========== */
+/*  banner section  */
 .hero {
   background-color: #fff;
   padding: 60px 0;
@@ -85,14 +84,14 @@ img {
 
 .hero-text p {
   font-size: 18px;
-  color: #555;
+  color: #555555;
 }
 
 .hero-image img {
   width: 600px;
 }
 
-/* ========== Products section ========== */
+/*  Products section  */
 .products {
   padding: 60px 0;
   background-color: #fefefe;
@@ -108,7 +107,7 @@ img {
 .section-description {
   text-align: center;
   margin-bottom: 40px;
-  color: #555;
+  color: #555555;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -152,5 +151,173 @@ img {
   background-color: #e85b00;
 }
 
+/*  Plants Lover Section  */
+.plants-lover {
+  background-color: #ffffff;
+  padding: 60px 40px;
+}
 
+.plants-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.plants-image {
+  flex: 1;
+}
+
+.plants-content {
+  flex: 1;
+}
+
+.plants-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #111111;
+}
+
+.plants-content ul {
+  list-style: disc inside;
+  color: #555555;
+}
+
+.plants-content ul li {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* ========== Latest Deals ========== */
+.latest-deals {
+  background: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.latest-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.latest-description {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #555;
+}
+
+.deals-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.deals-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1;
+}
+
+.deals-right {
+  flex: 2;
+}
+
+.deal-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.deal-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+}
+
+.deal-text {
+  position: absolute;
+  text-align: center;
+  bottom: 50px;
+  left: 50px;
+  /* background: rgba(253, 110, 10, 0.9); */
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.deal-text-2{
+  position: absolute;
+  text-align: center;
+  bottom: 120px;
+  left: 180px;
+  /* background: rgba(253, 110, 10, 0.9); */
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 5px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.shop-now {
+  display: block;
+  margin-top: 5px;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+
+
+/*  Join Section  */
+.join-section {
+  background: url('assets/news-letter-bg.png') center/cover no-repeat;
+  padding: 80px 20px;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+
+.join-section .overlay {
+  
+  padding: 60px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.join-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.join-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.join-form input[type="email"] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.join-form button {
+  background: #fd6e0a;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-form button:hover {
+  background: #e85b00;
+}
 
