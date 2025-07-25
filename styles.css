@@ -187,7 +187,7 @@ img {
   line-height: 1.5;
 }
 
-/* ========== Latest Deals ========== */
+/*  Latest Deals  */
 .latest-deals {
   background: #fff;
   padding: 60px 0;
@@ -319,5 +319,70 @@ img {
 
 .join-form button:hover {
   background: #e85b00;
+}
+
+/*  Footer */
+.footer {
+  background: #fff;
+  padding: 60px 0;
+  border-top: 1px solid #ddd;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-left {
+  flex: 1;
+  max-width: 300px;
+}
+
+.footer-left p {
+  color: #555;
+  margin-top: 15px;
+}
+
+.footer-logo {
+  width: 120px;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2;
+  justify-content: flex-end;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  color: #fd6e0a;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-social img {
+  width: 24px;
+  height: 24px;
 }
 
